@@ -52,6 +52,8 @@ public class Employee {
     }
 
 
+    //List of employees in each department:{Product Development=[Murali Gowda, Sanvi Pandey, Anuj], Security And Transport=[Iqbal Hussain], Sales And Marketing=[Paul Niksui], Infrastructure=[Martin Theron, Jasna Kaur], HR=[Jiya Brein, Nima Roy]}
+    //Count of employees in each department:{Product Development=3, Security And Transport=1, Sales And Marketing=1, Infrastructure=2, HR=2}
     public static void main(String[] args) {
         List<Employee> employees = Arrays.asList(
                 new Employee(111, "Jiya Brein", 32, "Female", "HR", 2011, 25000.0),
